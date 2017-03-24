@@ -1,0 +1,18 @@
+---
+kind: "operation"
+client: "atomist-bot"
+generator:
+  name: "NewRugProject"
+  group: "atomist-rugs"
+  artifact: "rug-editors"
+  version: "0.18.0"
+  origin:
+    repo: "https://github.com/atomist-rugs/rug-editors.git"
+    branch: "585de6422d7ea141cadbfec6e11a63e60a5ab95a"
+    sha: "585de64"
+  parameters:
+    - "project_name": "test-rug"
+    - "owner": "atomist"
+    - "description": "bla bla"
+    - "version": "0.1.0"
+
